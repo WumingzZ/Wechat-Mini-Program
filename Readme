@@ -1,0 +1,30 @@
+本微信小程序数据库采用开发者工具自带云数据库，
+主要包含以下数据库：
+  I.学生/教师登录信息（UserInfo_st/UserInfo_th）
+    如下：
+    data: {
+      userName:
+      userID :
+      Class :
+      Institute: 
+      permission:
+      userWxName:
+    },
+------------------------------------------------
+    II.每日学生上报健康数据（HealthyInfo）
+    如下：
+        data: {
+          userName:
+          userID :
+          Institute:
+          location :
+          health : 
+          healthy_mark:
+          WhetherOrNot_Go: 
+          WhetherOrNot_are :
+          WhetherOrNot_contancts：
+          Others  :
+        },
+------------------------------------------------
+    III.首页数据（news/numbers）
+        
